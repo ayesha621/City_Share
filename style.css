@@ -1,0 +1,169 @@
+body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+    overflow-x: hidden;
+       overflow-y: hidden;
+    font-size: large;
+      margin: 0;
+}
+
+
+.topbar {
+  height: 90px;
+  background: #5a73d9; 
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+a:link { color: black; 
+text-decoration: none;}
+
+
+
+
+
+input[type="text"] {
+  background-color: #ffffff; 
+        
+
+}
+
+input[type="text"]:focus {
+  background-color: #f2f2f2; 
+     
+}
+
+
+
+.img-fluid {
+  border-radius: 10px;
+    border: 1.5px solid #222222;
+  object-fit: cover;  
+  width: 100%;
+  height: 100%;        
+  overflow: hidden;
+
+}
+
+
+
+
+.logininput {
+  background: #ffffff;
+  border-radius: 25px;
+      border: 2px solid #5a73d9;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+}
+
+
+.button {
+  background:#5a73d9; 
+  border-radius: 15px;
+  padding: 5px 30px ;
+  display: flex;
+justify-content: center;
+ border: none;  
+   border: 2px solid #5a73d9;
+
+
+}
+
+
+.menubutton  {
+
+  border-radius: 25px;
+  padding: 10px 20px;
+
+  display: flex;
+  justify-content: space-between;
+ 
+
+  border: none;
+   border-radius: 25px;
+  width: 800px;
+}
+
+
+.menubutton{
+
+  transform: scale(1.1); 
+}
+
+
+
+button:hover {
+
+  transform: scale(1.05); 
+
+}
+
+
+	.box {
+  width: 500px;
+  height: 500px;
+      padding: 100px;
+      border-radius: 25px;
+      background:  #cfd5f7;
+      text-align: center;
+  transform: scale(1.0); 
+    }
+
+
+    	.box2 {
+  width: 500px;
+  height: 600px;
+      padding: 100px;
+      border-radius: 25px;
+      background:  #ffffff;
+      text-align: center;
+  transform: scale(1.0);
+        border: 2px solid #5a73d9;
+ 
+    }
+
+
+
+
+
+
+        .box h3 {
+      color: #5a6fd6;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+.menu-btn {
+  background: #5a73d9;
+  color: white;
+font-size: larger;
+
+  border-radius: 25px;
+  padding: 12px 20px;
+
+  width: 280px;            
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+
+  transition: 0.2s;
+}
+
+.menu-btn:hover {
+  background: #4a63c9;
+
+  transform: scale(1.03);
+}
+
+.menu-icon {
+  width: 42px;
+  height: 32px;
+}
+
