@@ -167,3 +167,143 @@ font-size: larger;
   height: 32px;
 }
 
+/*-------------------------------------------------------------------*/
+
+/*start of changes made by ayesha 
+Register Page*/
+.topBarText{
+    color: white; 
+}
+
+/* register page: Two columns */
+.card{
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    color:#5a73d9;
+}
+
+.row {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.register-box{
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 30px;   
+}
+
+.half {
+    width: 50%;
+    margin-top:100px;
+}
+.otherHalf{
+    width: 20%;
+    margin-bottom: 140px;
+    margin-top:220px;
+   
+}
+.back-btn, .createAccountBtn, .email, .userName, .password {
+    border-radius: 10px;
+    margin:auto;
+}
+
+.createAccountBtn, .card label, h6, .reset-box label{
+    display:flex;
+    justify-content: center;
+}
+
+.back-btn, .createAccountBtn, .otherHalf{
+    background-color: #5a73d9; 
+    color: white;
+}
+
+button:hover {
+    background-color:  #5a73d9;
+}
+
+/*Password reset page*/
+.reset-box{
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    margin: 100px auto;
+    margin-top: 20px;
+    padding: 30px; 
+    background-color: #5a73d946; 
+    display:flex;
+    justify-content: center;
+    flex-direction: column; 
+    width: 50%;
+    color:  #5a73d9;
+}
+
+h1{
+  display:flex;
+  justify-content: center;
+  color:#5a73d9; 
+  margin-top: 100px;
+  margin-bottom: 10px;
+
+}
+.send-code{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #5a73d9; 
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.reset-box label{
+  margin-top: 20px;
+}
+
+/*delivery history page*/
+.history-box{
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    margin: 100px auto;
+    margin-top: 20px;
+    padding: 30px; 
+   
+    display:flex;
+    justify-content: center;
+    flex-direction: column; 
+    width: 50%;
+    color:  #5a73d9;
+}
+
+
+.statusOne{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.tag{
+  padding:2px 15px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.delivered {
+  background-color: #22c55e;
+}
+
+.canceled {
+  background-color: #9ca3af;
+}
+/*end of changes made by ayesha*/
+
