@@ -16,15 +16,38 @@
 
 </head>
 
+<script>
+    function toggleMenu() {
+        document.getElementById('cityMenu').classList.toggle('open');
+    }
+
+    // close if user clicks anywhere else
+    document.addEventListener('click', function (e) {
+        const menu = document.getElementById('cityMenu');
+        const toggle = document.getElementById('cityToggle');
+        if (!menu.contains(e.target) && e.target !== toggle) {
+            menu.classList.remove('open');
+        }
+    });
+</script>
+
 <body class="dd-body">
 
     <!-- Top Bar -->
     <div class="topbar d-flex justify-content-between align-items-center px-4">
         <div class="d-flex align-items-center gap-2">
             <img src="logo.png" width="60">
-            <div style="color: white;">
+            <div style="color: white; position: relative;">
                 <h5 class="m-0">CityShare</h5>
-                <small>Toronto, ON ⏷</small>
+                <small id="cityToggle" onclick="toggleMenu()" style="cursor: pointer;">Toronto, ON ⏷</small>
+
+                <div id="cityMenu" class="dropdown">
+                    <a href="uploadpfp.html" class="nav-link-item">Profile</a>
+                    <a href="requestdelivery.html" class="nav-link-item">Request Delivery</a>
+                    <a href="finddriver.html" class="nav-link-item">Track Delivery</a>
+                    <a href="deliveryHistory.html" class="nav-link-item">Delivery History</a>
+                    <a href="loginpage.html" class="nav-link-item logout">Logout</a>
+                </div>
             </div>
         </div>
         <div class="d-flex align-items-center gap-3">

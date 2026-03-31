@@ -169,6 +169,60 @@ button:hover {
   height: 32px;
 }
 
+
+.custom-modal {
+  border-radius: 15px;
+
+   border: none;  
+   border: 2px solid #5a73d9;
+
+}
+
+.modal-header {
+
+ 
+   border: 2px solid #5a73d9;
+}
+
+.modal-title {
+  color: #5a73d9;
+  font-weight: bold;
+}
+
+.modal-body h4 {
+  color: #5a73d9;
+  margin-bottom: 10px;
+}
+
+.form-check-input:checked  {
+background-color: #5a6fd6;
+border-radius: 40%;
+border: 3px solid #cfd5f7;
+background-image: none;
+
+}
+
+.form-check-input {
+background-color:#cfd5f7;
+border-radius: 40%;
+border: 3px solid #cfd5f7;
+
+}
+
+.form-check-input:hover{
+cursor: pointer;
+  
+
+}
+
+.form-check-input:focus{
+box-shadow: none;
+
+}
+
+/*end of changes made by dami*/
+
+
 /*-------------------------------------------------------------------*/
 
 /*start of changes made by ayesha 
@@ -528,4 +582,48 @@ h1 {
   font-size: 14px;
   font-weight: 700;
   color: #22c55e;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: white;
+  border-radius: 16px;
+  padding: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  z-index: 999;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.dropdown.open {
+  display: flex;
+}
+
+.nav-link-item {
+  color: #5a73d9;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 10px;
+  transition: background 0.18s;
+}
+
+.nav-link-item:hover {
+  background: #f0f3ff;
+  color: #5a73d9;
+}
+
+.nav-link-item.logout {
+  color: #ef4444;
+  border-top: 1px solid #eee;
+  margin-top: 4px;
+  padding-top: 12px;
+}
+
+.nav-link-item.logout:hover {
+  background: #fff0f0;
+  color: #ef4444;
 }
