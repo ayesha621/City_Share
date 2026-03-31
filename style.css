@@ -2,7 +2,7 @@ body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
   overflow-x: hidden;
-  overflow-y: hidden;
+ 
   font-size: large;
   margin: 0;
 }
@@ -88,15 +88,21 @@ input[type="text"]:focus {
   justify-content: space-between;
 
 
+
+  color: white;  
   border: none;
   border-radius: 25px;
   width: 800px;
+   transform: scale(1.1);
 }
 
 
-.menubutton {
 
-  transform: scale(1.1);
+
+
+.menubutton a {
+  color: white;
+  text-decoration: none;
 }
 
 
@@ -219,6 +225,7 @@ cursor: pointer;
 box-shadow: none;
 
 }
+
 
 /*end of changes made by dami*/
 
