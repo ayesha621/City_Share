@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <title>CityShare</title>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
@@ -191,6 +191,7 @@
 
 
 
+
   </pre>
 
 <div class="d-flex justify-content-between align-items-center w-100 px-4">
@@ -198,9 +199,14 @@
  <a href="homepage.html"> <button class="button w-5 mt-1 me-2" style="color:#5a73d9; background-color:#ffffff;">
        <h5> Back</h5>
     </button></a>
-  <a href="finddriver.html"> <button class="button w-5 mt-1 me-2" style="color:#5a73d9; background-color:#ffffff;">
-       <h5> Find Driver</h5>
-    </button></a>
+
+
+<button class="button w-5 mt-1 me-2" data-bs-toggle="modal" 
+  data-bs-target="#driverModal" style="color:#5a73d9; background-color:#ffffff;">
+       <h5>   Find Driver</h5>
+    </button>
+
+
           </div>
 </div>
 
@@ -209,5 +215,41 @@
 
 
 
+
+
+
+
+
+    <div class="modal fade" id="driverModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content custom-modal">
+
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Driver Found!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+   <div class="modal-body text-center">
+
+        <h4>Name: John</h4>
+        <h4>Vehicle: Car</h4>
+        <h4>Rating: ★★★★★</h4>
+        <h4>ETA: 10 minutes</h4>
+<div style = "justify-self: center;"> 
+        <div class="mt-4">
+       <a href="finddriver.html" class="menu-btn">
+  View Tracking     <img src="location.png" class="menu-icon">
+</a> </div>
+
+
+
+     </div>
+    </div>
+
+</div>
+    
+</div>
+
+</div>
 </body>
 </html>
