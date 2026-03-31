@@ -167,6 +167,60 @@ font-size: larger;
   height: 32px;
 }
 
+
+.custom-modal {
+  border-radius: 15px;
+
+   border: none;  
+   border: 2px solid #5a73d9;
+
+}
+
+.modal-header {
+
+ 
+   border: 2px solid #5a73d9;
+}
+
+.modal-title {
+  color: #5a73d9;
+  font-weight: bold;
+}
+
+.modal-body h4 {
+  color: #5a73d9;
+  margin-bottom: 10px;
+}
+
+.form-check-input:checked  {
+background-color: #5a6fd6;
+border-radius: 40%;
+border: 3px solid #cfd5f7;
+background-image: none;
+
+}
+
+.form-check-input {
+background-color:#cfd5f7;
+border-radius: 40%;
+border: 3px solid #cfd5f7;
+
+}
+
+.form-check-input:hover{
+cursor: pointer;
+  
+
+}
+
+.form-check-input:focus{
+box-shadow: none;
+
+}
+
+/*end of changes made by dami*/
+
+
 /*-------------------------------------------------------------------*/
 
 /*start of changes made by ayesha 
