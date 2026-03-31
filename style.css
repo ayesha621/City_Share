@@ -1,16 +1,16 @@
 body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
-    overflow-x: hidden;
-       overflow-y: hidden;
-    font-size: large;
-      margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: large;
+  margin: 0;
 }
 
 
 .topbar {
   height: 90px;
-  background: #5a73d9; 
+  background: #5a73d9;
   border-bottom: 1px solid #ddd;
 }
 
@@ -21,32 +21,34 @@ body {
 
 
 
-a:link { color: black; 
-text-decoration: none;}
+a:link {
+  color: black;
+  text-decoration: none;
+}
 
 
 
 
 
 input[type="text"] {
-  background-color: #ffffff; 
-        
+  background-color: #ffffff;
+
 
 }
 
 input[type="text"]:focus {
-  background-color: #f2f2f2; 
-     
+  background-color: #f2f2f2;
+
 }
 
 
 
 .img-fluid {
   border-radius: 10px;
-    border: 1.5px solid #222222;
-  object-fit: cover;  
+  border: 1.5px solid #222222;
+  object-fit: cover;
   width: 100%;
-  height: 100%;        
+  height: 100%;
   overflow: hidden;
 
 }
@@ -57,7 +59,7 @@ input[type="text"]:focus {
 .logininput {
   background: #ffffff;
   border-radius: 25px;
-      border: 2px solid #5a73d9;
+  border: 2px solid #5a73d9;
   padding: 8px 12px;
   display: flex;
   align-items: center;
@@ -65,92 +67,92 @@ input[type="text"]:focus {
 
 
 .button {
-  background:#5a73d9; 
+  background: #5a73d9;
   border-radius: 15px;
-  padding: 5px 30px ;
+  padding: 5px 30px;
   display: flex;
-justify-content: center;
- border: none;  
-   border: 2px solid #5a73d9;
+  justify-content: center;
+  border: none;
+  border: 2px solid #5a73d9;
 
 
 }
 
 
-.menubutton  {
+.menubutton {
 
   border-radius: 25px;
   padding: 10px 20px;
 
   display: flex;
   justify-content: space-between;
- 
+
 
   border: none;
-   border-radius: 25px;
+  border-radius: 25px;
   width: 800px;
 }
 
 
-.menubutton{
+.menubutton {
 
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 
 
 button:hover {
 
-  transform: scale(1.05); 
+  transform: scale(1.05);
 
 }
 
 
-	.box {
+.box {
   width: 500px;
   height: 500px;
-      padding: 100px;
-      border-radius: 25px;
-      background:  #cfd5f7;
-      text-align: center;
-  transform: scale(1.0); 
-    }
+  padding: 100px;
+  border-radius: 25px;
+  background: #cfd5f7;
+  text-align: center;
+  transform: scale(1.0);
+}
 
 
-    	.box2 {
+.box2 {
   width: 500px;
   height: 600px;
-      padding: 100px;
-      border-radius: 25px;
-      background:  #ffffff;
-      text-align: center;
+  padding: 100px;
+  border-radius: 25px;
+  background: #ffffff;
+  text-align: center;
   transform: scale(1.0);
-        border: 2px solid #5a73d9;
- 
-    }
+  border: 2px solid #5a73d9;
+
+}
 
 
 
 
 
 
-        .box h3 {
-      color: #5a6fd6;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
+.box h3 {
+  color: #5a6fd6;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 
 .menu-btn {
   background: #5a73d9;
   color: white;
-font-size: larger;
+  font-size: larger;
 
   border-radius: 25px;
   padding: 12px 20px;
 
-  width: 280px;            
+  width: 280px;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
 
   transition: 0.2s;
@@ -225,116 +227,128 @@ box-shadow: none;
 
 /*start of changes made by ayesha 
 Register Page*/
-.topBarText{
-    color: white; 
+.topBarText {
+  color: white;
 }
 
 /* register page: Two columns */
-.card{
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #e1e1e1;
-    color:#5a73d9;
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+  color: #5a73d9;
 }
 
 .row {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
 }
 
-.register-box{
-    border: 1px solid #e1e1e1;
-    border-radius: 10px;
-    margin: 100px;
-    padding: 30px;   
+.register-box {
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin: 100px;
+  padding: 30px;
 }
 
 .half {
-    width: 50%;
-    margin-top:100px;
-}
-.otherHalf{
-    width: 20%;
-    margin-bottom: 140px;
-    margin-top:220px;
-   
-}
-.back-btn, .createAccountBtn, .email, .userName, .password {
-    border-radius: 10px;
-    margin:auto;
+  width: 50%;
+  margin-top: 100px;
 }
 
-.createAccountBtn, .card label, h6, .reset-box label{
-    display:flex;
-    justify-content: center;
+.otherHalf {
+  width: 20%;
+  margin-bottom: 140px;
+  margin-top: 220px;
+
 }
 
-.back-btn, .createAccountBtn, .otherHalf{
-    background-color: #5a73d9; 
-    color: white;
+.back-btn,
+.createAccountBtn,
+.email,
+.userName,
+.password {
+  border-radius: 10px;
+  margin: auto;
+}
+
+.createAccountBtn,
+.card label,
+h6,
+.reset-box label {
+  display: flex;
+  justify-content: center;
+}
+
+.back-btn,
+.createAccountBtn,
+.otherHalf {
+  background-color: #5a73d9;
+  color: white;
 }
 
 button:hover {
-    background-color:  #5a73d9;
+  background-color: #5a73d9;
 }
 
 /*Password reset page*/
-.reset-box{
-    border: 1px solid #e1e1e1;
-    border-radius: 10px;
-    margin: 100px auto;
-    margin-top: 20px;
-    padding: 30px; 
-    background-color: #5a73d946; 
-    display:flex;
-    justify-content: center;
-    flex-direction: column; 
-    width: 50%;
-    color:  #5a73d9;
+.reset-box {
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin: 100px auto;
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #5a73d946;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  color: #5a73d9;
 }
 
-h1{
-  display:flex;
+h1 {
+  display: flex;
   justify-content: center;
-  color:#5a73d9; 
+  color: #5a73d9;
   margin-top: 100px;
   margin-bottom: 10px;
 
 }
-.send-code{
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    background-color: #5a73d9; 
-    color: white;
-    margin: auto;
-    margin-top: 20px;
+
+.send-code {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #5a73d9;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
 }
 
-.reset-box label{
+.reset-box label {
   margin-top: 20px;
 }
 
 /*delivery history page*/
-.history-box{
-    border: 1px solid #e1e1e1;
-    border-radius: 10px;
-    margin: 100px auto;
-    margin-top: 20px;
-    padding: 30px; 
-   
-    display:flex;
-    justify-content: center;
-    flex-direction: column; 
-    width: 50%;
-    color:  #5a73d9;
+.history-box {
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin: 100px auto;
+  margin-top: 20px;
+  padding: 30px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  color: #5a73d9;
 }
 
 
-.statusOne{
+.statusOne {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -343,8 +357,8 @@ h1{
   margin: 10px;
 }
 
-.tag{
-  padding:2px 15px;
+.tag {
+  padding: 2px 15px;
   border-radius: 10px;
   color: white;
   margin-top: 5px;
@@ -359,5 +373,213 @@ h1{
 .canceled {
   background-color: #9ca3af;
 }
+
 /*end of changes made by ayesha*/
 
+
+
+
+
+
+
+
+/* Sarim Changes */
+
+/* dd is short for driver dashboard */
+.dd-body {
+  overflow-y: auto;
+}
+
+.dd-body .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: unset;
+}
+
+
+/* greeting */
+.greeting-title {
+  font-style: italic;
+  font-weight: 800;
+  color: #5a73d9;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.greeting-date {
+  font-style: italic;
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+/* stat cards */
+.stat-card {
+  border-radius: 18px;
+  background: #cfd5f7;
+  padding: 21px 24px;
+  width: 100%;
+  height: auto;
+}
+
+.stat-value {
+  font-weight: 800;
+  font-size: 32px;
+  color: #5a73d9;
+  line-height: 1;
+  margin: 6px 0;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.sub-neg {
+  color: #ef4444;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sub-pos {
+  color: #22c55e;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* main panels */
+.dd-card {
+  background: #cfd5f7;
+  border-radius: 18px;
+  padding: 22px;
+}
+
+.dd-card-title {
+  font-weight: 700;
+  color: #5a73d9;
+  font-size: 18px;
+}
+
+/* new request badge */
+.order-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #22c55e;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 4px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.dd-pulse-dot {
+  width: 7px;
+  height: 7px;
+  background: #fff;
+  border-radius: 50%;
+  animation: dd-pulse 1.4s infinite;
+}
+
+/* text fields */
+.text-field {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 8px 12px;
+  border: 1px solid #e1e1e1;
+}
+
+.field-label {
+  font-size: 11px;
+  color: #aaa;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 3px;
+}
+
+.field-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.pay-value {
+  color: #5a73d9;
+}
+
+/* buttons */
+.decline-btn {
+  height: 48px;
+  border: none;
+  border-radius: 12px;
+  background: #ef4444;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s;
+  width: 100%;
+}
+
+.accept-btn {
+  height: 48px;
+  border: none;
+  border-radius: 12px;
+  background: #22c55e;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s;
+  width: 100%;
+}
+
+.decline-btn:hover {
+  background: #e23434;
+  transform: scale(1.03);
+}
+
+.accept-btn:hover {
+  background: #20b958;
+  transform: scale(1.03);
+}
+
+/* delivery history rows */
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+
+.history-item:hover {
+  background: #eef0fa;
+}
+
+.address{
+  font-size: 14px;
+  font-weight: 600;
+  color: #5a73d9;
+}
+
+.history-time {
+  font-size: 12px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.history-earn {
+  font-size: 14px;
+  font-weight: 700;
+  color: #22c55e;
+}
