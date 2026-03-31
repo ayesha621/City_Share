@@ -16,20 +16,7 @@
 
 </head>
 
-<script>
-    function toggleMenu() {
-        document.getElementById('cityMenu').classList.toggle('open');
-    }
-
-    // close if user clicks anywhere else
-    document.addEventListener('click', function (e) {
-        const menu = document.getElementById('cityMenu');
-        const toggle = document.getElementById('cityToggle');
-        if (!menu.contains(e.target) && e.target !== toggle) {
-            menu.classList.remove('open');
-        }
-    });
-</script>
+<script src="script.js"></script>
 
 <body class="dd-body">
 
@@ -38,8 +25,8 @@
         <div class="d-flex align-items-center gap-2">
             <img src="logo.png" width="60">
             <div style="color: white; position: relative;">
-                <h5 class="m-0">CityShare</h5>
-                <small id="cityToggle" onclick="toggleMenu()" style="cursor: pointer;">Toronto, ON ⏷</small>
+                <h5 class="m-0">CityShare - Toronto, ON </h5>
+                <small id="cityToggle" onclick="toggleMenu()" style="cursor: pointer;">Menu⏷</small>
 
                 <div id="cityMenu" class="dropdown">
                     <a href="uploadpfp.html" class="nav-link-item">Profile</a>
@@ -48,6 +35,7 @@
                     <a href="deliveryHistory.html" class="nav-link-item">Delivery History</a>
                     <a href="loginpage.html" class="nav-link-item logout">Logout</a>
                 </div>
+                
             </div>
         </div>
         <div class="d-flex align-items-center gap-3">
@@ -212,6 +200,7 @@
         </div>
     </div>
 
+    
 
 </body>
 
