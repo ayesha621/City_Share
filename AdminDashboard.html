@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CityShare</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="topbar d-flex justify-content-between align-items-center px-4">
+
+
+  <div class="d-flex align-items-center gap-2">
+    <img src="logo.png" width="60">
+
+    <div style="color: white;">
+    <h5 class="m-0">CityShare</h5>
+    <small>Toronto, ON ⏷</small>
+    </div>
+  </div>
+
+  <div class="d-flex align-items-center gap-3">
+       <a href="homepage.html"><img src="home.png" class="nav-icon"></a>
+    <a href="uploadpfp.html"><img src="profile.png" class="nav-icon"></a> 
+  </div>
+</div>
+
+<p class="header">Administrator Dashboard</p>
+<div class="theOuter">
+	<div class="outer">
+		<div class="inner">
+			<p class="innerText">Flagged Accounts: 3</p>
+			<p class="innerText">Low Rated Accounts: 2</p>
+		</div>
+		<a href="adminReviewList.html" class="btn reviewB">Review Accounts</a>
+	</div>
+</div>
+
+<!--Temp Back button but need to figure where it leads to first-->
+<a href="..." class="btn backB">Back</a>
+<button class="logoutB" onclick="logout()">Logout</button>
+
+<!--Logout function. edit: will make it not popup later, just leaving like this for now-->
+<script>
+	function logout() {
+		alert("You have been logged out.");
+		window.location.href = "homepage.html";
+	}
+</script>
