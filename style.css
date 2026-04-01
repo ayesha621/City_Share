@@ -634,3 +634,245 @@ h1 {
   background: #fff0f0;
   color: #ef4444;
 }
+
+/*end of changes made by sarim*/
+
+
+/*Mustafa Changes*/
+
+.header {
+	text-align: center;
+	color: #5A73D9;
+	margin-top: 30px;
+	font-size: 45px;
+}
+
+.theOuter {
+    width: 1500px;
+    height: 500px;
+    margin: 40px auto;
+    border: 2px solid #5A73D9;
+    border-radius: 25px;
+    padding: 40px;
+    background-color: #f5f7ff;
+}
+
+.outer {
+	height: 400px;
+    background-color: #cfd7f4;
+    border-radius: 25px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.inner {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.innerReview {
+	background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.innerText {
+    color: #5A73D9;
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.reviewB {
+	width: 300px;
+    display: block;
+    margin: 50px auto 0 auto;
+    padding: 10px 25px;
+    background-color: #5A73D9;
+    color: white;
+    border-radius: 25px;
+    font-size: 22px;
+}
+
+.reviewB:hover {
+    background-color: #7d8ff0;
+    color: white;
+}
+
+.bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.backB {
+    padding: 6px 18px;
+    border: 2px solid #5A73D9;
+    color: #5A73D9;
+    background: transparent;
+    border-radius: 20px;
+    margin-left: 210px;
+}
+
+.backB:hover {
+    background-color: #5A73D9;
+    color: white;
+}
+
+.logoutB {
+    padding: 6px 18px;
+    border: 2px solid #5A73D9;
+    color: #5A73D9;
+    background: white;
+    border-radius: 20px;
+    margin-left: 1335px;
+}
+
+.logoutB:hover {
+    background-color: #5A73D9;
+    color: white;
+}
+
+.reviewHeader {
+	color: black;#5A73D9;
+	text-align: center;
+}
+.reviewT {
+    text-align: center;
+    color: #5A73D9;
+    font-weight: bold;
+}
+
+.rowText {
+	display: flex;
+	justify-content: space-between;
+    margin: 15px 0;
+    color: #5A73D9;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+.reviewBT {
+  	 background-color: #5A73D9;
+  	 color: white;
+  	 margin-bottom: 15px;
+}
+
+.reviewBT:hover {
+    background-color: #7d8ff0;
+    color: white;
+}
+
+.suspendB {
+	width: 120px;
+    background-color: #e58a2f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 560px;
+    margin-top: 35px;
+
+}
+
+.suspendB:hover {
+	background-color: #F5BB78;
+	color: white;
+}
+
+.deleteB {
+	width: 120px;
+    background-color: #e14b4b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.deleteB:hover {
+	background-color: #F07773;
+	color: white;
+}
+
+.status {
+    margin-top: 30px;
+    width: 300px;
+    text-align: center;
+    margin-left: 870px;
+    margin-right: auto;
+}
+
+.statusStep {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+    color: #5A73D9;;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.statusStep.active .dot {
+    background-color: #2ecc71; 
+}
+
+.theOuterDelivDetail {
+    width: 1500px;
+    height: 700px;
+    margin: 40px auto;
+    border: 2px solid #5A73D9;
+    border-radius: 25px;
+    padding: 40px;
+    background-color: #f5f7ff;
+}
+
+.outerDelivDetail {
+	height: 300px;
+    background-color: #cfd7f4;
+    border-radius: 25px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.innerDelivDetail {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.rowTextDeliv {
+	margin-right: 740px;
+    color: #5A73D9;
+    font-size: 20px;
+}
+
+.DeliveredStatus {
+	display: inline-block;
+	width: 150px;
+	height: auto;
+	border-radius: 20px;
+	background-color: #0F8A3E;
+	color: white;
+	font-size: 20px;
+}
+
+.DelivHistoryDetText {
+	font-size: 20px;
+	color: #5A73D9;
+	text-align: center;
+}
