@@ -616,6 +616,7 @@ h1 {
   padding: 10px 16px;
   border-radius: 10px;
   transition: background 0.18s;
+  text-decoration: none;
 }
 
 .nav-link-item:hover {
