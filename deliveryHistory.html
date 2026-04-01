@@ -11,17 +11,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body>
     <!-- Top Bar -->
-    <div class="topbar d-flex align-items-center px-4 py-3">
-        <img src="logo.png" width="50">
-        <div class="topBarText">
-            <h6 class="m-0">CityShare</h6>
-            <small>Toronto, ON ⏷</small>
+    <div class="topbar d-flex justify-content-between align-items-center px-4">
+        <div class="d-flex align-items-center gap-2">
+            <img src="logo.png" width="60">
+            <div style="color: white; position: relative;">
+                <h5 class="m-0">CityShare - Toronto, ON </h5>
+                <small id="cityToggle" onclick="toggleMenu()" style="cursor: pointer;">Menu⏷</small>
+
+                <div id="cityMenu" class="dropdown">
+                    <a href="uploadpfp.html" class="nav-link-item">Profile</a>
+                    <a href="requestdelivery.html" class="nav-link-item">Request Delivery</a>
+                    <a href="finddriver.html" class="nav-link-item">Track Delivery</a>
+                    <a href="deliveryHistory.html" class="nav-link-item">Delivery History</a>
+                    <a href="loginpage.html" class="nav-link-item logout">Logout</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+            <a href="homepage.html"><img src="home.png" class="nav-icon"></a>
+            <a href="uploadpfp.html"><img src="profile.png" class="nav-icon"></a>
         </div>
     </div>
+  </div>
     
     <h1>
         Delivery History

@@ -1,124 +1,130 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <title>CityShare</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body>
 
-<div class="topbar d-flex justify-content-between align-items-center px-4">
+  <div class="topbar d-flex justify-content-between align-items-center px-4">
+        <div class="d-flex align-items-center gap-2">
+            <img src="logo.png" width="60">
+            <div style="color: white; position: relative;">
+                <h5 class="m-0">CityShare - Toronto, ON </h5>
+                <small id="cityToggle" onclick="toggleMenu()" style="cursor: pointer;">Menu⏷</small>
 
-
-  <div class="d-flex align-items-center gap-2">
-    <img src="logo.png" width="60">
-
-    <div style="color: white;">
-    <h5 class="m-0">CityShare</h5>
-    <small>Toronto, ON ⏷</small>
+                <div id="cityMenu" class="dropdown">
+                    <a href="uploadpfp.html" class="nav-link-item">Profile</a>
+                    <a href="requestdelivery.html" class="nav-link-item">Request Delivery</a>
+                    <a href="finddriver.html" class="nav-link-item">Track Delivery</a>
+                    <a href="deliveryHistory.html" class="nav-link-item">Delivery History</a>
+                    <a href="loginpage.html" class="nav-link-item logout">Logout</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+            <a href="homepage.html"><img src="home.png" class="nav-icon"></a>
+            <a href="uploadpfp.html"><img src="profile.png" class="nav-icon"></a>
+        </div>
     </div>
   </div>
 
 
-  <div class="d-flex align-items-center gap-3">
-       <a href="homepage.html"><img src="home.png" class="nav-icon"></a>
-    <a href="uploadpfp.html"><img src="profile.png" class="nav-icon"></a> 
-  </div>
 
-</div>
-
- 
-
-<pre>
+  <pre>
   </pre>
 
-<div class="container-fluid px-3 mt-4" style="color:#5a73d9;">
-  <h5 class="mb-0">Request Delivery</h5>
+  <div class="container-fluid px-3 mt-4" style="color:#5a73d9;">
+    <h5 class="mb-0">Request Delivery</h5>
 
 
 
 
 
-    
-<pre>
+
+    <pre>
   </pre>
-<div class="row mb-4">
-        <div class="col-md-6">
- <label class="form-label">Pickup</label>
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <label class="form-label">Pickup</label>
 
-<div class="logininput">
-    <input type="text" class="form-control border-0" placeholder="Address" required>
-  </div>
-</div>
+        <div class="logininput">
+          <input type="text" class="form-control border-0" placeholder="Address" required>
+        </div>
+      </div>
 
-  <div class="col-md-6">
-  <label class="form-label">Drop off</label>
+      <div class="col-md-6">
+        <label class="form-label">Drop off</label>
 
-<div class="logininput">
-    <input type="text" class="form-control border-0" placeholder="Address" required>
-  </div>
-  </div>
+        <div class="logininput">
+          <input type="text" class="form-control border-0" placeholder="Address" required>
+        </div>
+      </div>
 
-</div>
+    </div>
 
-  <div class="row mb-4">
+    <div class="row mb-4">
 
-    <div class="col-md-6">
- <label class="form-label">Size</label>
+      <div class="col-md-6">
+        <label class="form-label">Size</label>
 
-<div class="logininput">
-    <input type="text" class="form-control border-0" placeholder="Inches (W x H in)" required>
-  </div>
-</div>
+        <div class="logininput">
+          <input type="text" class="form-control border-0" placeholder="Inches (W x H in)" required>
+        </div>
+      </div>
 
-  <div class="col-md-6">
-  <label class="form-label">Weight</label>
+      <div class="col-md-6">
+        <label class="form-label">Weight</label>
 
-<div class="logininput">
-    <input type="text" class="form-control border-0" placeholder="kg" required>
-  </div>
-  </div>
-  
-  
-</div>
+        <div class="logininput">
+          <input type="text" class="form-control border-0" placeholder="kg" required>
+        </div>
+      </div>
 
-
-</div>
-
-</div>
-
-</div>
-</div>
-
-
-
-
-
-
-<div class="d-flex justify-content-center px-3 mt-3 ">
- 
-</div>
-
-
-   
-</div>
-</div>
-
-
-
-</div>
 
     </div>
 
 
+  </div>
+
+  </div>
+
+  </div>
+  </div>
+
+
+
+
+
+
+  <div class="d-flex justify-content-center px-3 mt-3 ">
+
+  </div>
+
+
+
+  </div>
+  </div>
+
+
+
+  </div>
+
+  </div>
 
 
 
@@ -131,7 +137,10 @@
 
 
 
-    <div class="container-fluid px-3 mt-4"  style="color:#5a73d9";><h5 class="mb-0">
+
+
+  <div class="container-fluid px-3 mt-4" style="color:#5a73d9" ;>
+    <h5 class="mb-0">
 
 
 
@@ -140,107 +149,109 @@
 
 
 
-<div class="row mt-5">
+      <div class="row mt-5">
 
 
-    <div class="col-6">
-	<h5>Drop off Preferences</h5>
+        <div class="col-6">
+          <h5>Drop off Preferences</h5>
 
-      <div class="form-check mt-3">
-        <input class="form-check-input" type="checkbox">
-        <label class="form-check-label">Leave at Door</label>
+          <div class="form-check mt-3">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">Leave at Door</label>
+          </div>
+
+          <div class="form-check mt-2">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">Hand to Recipient</label>
+          </div>
+        </div>
+
+
+        <div class="col-6">
+          <h5>Schedule</h5>
+
+          <div class="form-check mt-3">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">Now</label>
+          </div>
+
+          <div class="form-check mt-2">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">Later</label>
+          </div>
+        </div>
+
       </div>
 
-      <div class="form-check mt-2">
-        <input class="form-check-input" type="checkbox">
-        <label class="form-check-label">Hand to Recipient</label>
-      </div>
-    </div>
 
-    
-    <div class="col-6">
-      <h5>Schedule</h5>
+  </div>
 
-      <div class="form-check mt-3">
-        <input class="form-check-input" type="checkbox">
-        <label class="form-check-label">Now</label>
-      </div>
-
-      <div class="form-check mt-2">
-        <input class="form-check-input" type="checkbox">
-        <label class="form-check-label">Later</label>
-      </div>
-    </div>
-
-</div>
-
-    
-</div>
-
-<pre>
+  <pre>
   </pre>
 
-<div class="d-flex justify-content-between align-items-center w-100 px-4">
-      
- <a href="homepage.html"> <button class="button w-5 mt-1 me-2" style="color:#5a73d9; background-color:#ffffff;">
-       <h5> Back</h5>
-    </button></a>
+  <div class="d-flex justify-content-between align-items-center w-100 px-4">
+
+    <a href="homepage.html"> <button class="button w-5 mt-1 me-2" style="color:#5a73d9; background-color:#ffffff;">
+        <h5> Back</h5>
+      </button></a>
 
 
-<button class="button w-5 mt-1 me-2" data-bs-toggle="modal" 
-  data-bs-target="#driverModal" style="color:#5a73d9; background-color:#ffffff;">
-       <h5>   Find Driver</h5>
+    <button class="button w-5 mt-1 me-2" data-bs-toggle="modal" data-bs-target="#driverModal"
+      style="color:#5a73d9; background-color:#ffffff;">
+      <h5> Find Driver</h5>
     </button>
 
 
-          </div>
-		  
-		  <pre>
+  </div>
+
+  <pre>
   </pre>
-</div>
+  </div>
 
-    </div>
-
-
+  </div>
 
 
 
 
 
 
-    <div class="modal fade" id="driverModal" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content custom-modal">
 
-      <div class="modal-header border-0">
-        <h5 class="modal-title">Driver Found!</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+  <div class="modal fade" id="driverModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content custom-modal">
+
+        <div class="modal-header border-0">
+          <h5 class="modal-title">Driver Found!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body text-center">
+
+          <h4>Name: John</h4>
+          <h4>Vehicle: Car</h4>
+          <h4>Rating: ★★★★★</h4>
+          <h4>ETA: 10 minutes</h4>
+          <div style="justify-self: center;">
+            <div class="mt-4">
+              <a href="finddriver.html" class="menu-btn" style="text-decoration: none; color: white;" ;>
+                View Tracking <img src="location.png" class="menu-icon">
+              </a>
+            </div>
+
+
+
+          </div>
+        </div>
+
       </div>
 
-   <div class="modal-body text-center">
-
-        <h4>Name: John</h4>
-        <h4>Vehicle: Car</h4>
-        <h4>Rating: ★★★★★</h4>
-        <h4>ETA: 10 minutes</h4>
-<div style = "justify-self: center;"> 
-        <div class="mt-4">
-      <a href="finddriver.html" class="menu-btn"  style="text-decoration: none; color: white;"; >
-  View Tracking     <img src="location.png" class="menu-icon">
-</a>  </div>
-
-
-
-     </div>
     </div>
 
-</div>
-    
-</div>
-
-</div>
+  </div>
 
 
 
 </body>
+
 </html>

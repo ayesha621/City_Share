@@ -1,55 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CityShare</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CityShare</title>
 
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
 </head>
+
 <body>
 	<div class="topbar d-flex justify-content-between align-items-center px-4">
+        <div class="d-flex align-items-center gap-2">
+            <img src="logo.png" width="60">
+            <div style="color: white; position: relative;">
+                <h5 class="m-0">CityShare - Toronto, ON </h5>
+                <small id="cityToggle" onclick="toggleMenu()" style="cursor: pointer;">Menu⏷</small>
 
-
-  <div class="d-flex align-items-center gap-2">
-    <img src="logo.png" width="60">
-
-    <div style="color: white;">
-    <h5 class="m-0">CityShare</h5>
-    <small>Toronto, ON ⏷</small>
+                <div id="cityMenu" class="dropdown">
+                    <a href="uploadpfp.html" class="nav-link-item">Profile</a>
+                    <a href="requestdelivery.html" class="nav-link-item">Request Delivery</a>
+                    <a href="finddriver.html" class="nav-link-item">Track Delivery</a>
+                    <a href="deliveryHistory.html" class="nav-link-item">Delivery History</a>
+                    <a href="loginpage.html" class="nav-link-item logout">Logout</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+            <a href="homepage.html"><img src="home.png" class="nav-icon"></a>
+            <a href="uploadpfp.html"><img src="profile.png" class="nav-icon"></a>
+        </div>
     </div>
   </div>
 
-  <div class="d-flex align-items-center gap-3">
-       <a href="homepage.html"><img src="home.png" class="nav-icon"></a>
-    <a href="uploadpfp.html"><img src="profile.png" class="nav-icon"></a> 
-  </div>
-</div>
-<p class="header">USER REVIEW</p>
+	<p class="header">USER REVIEW</p>
 	<div class="theOuter">
 		<div class="inner">
 			<div class="rowSpacing"></div>
 			<p class="rowText">Name: John Doe</p>
 			<p class="rowText">Rating: 2.1/5</p>
-			<p class="rowText">Reports: Was very rude upon delivery and took unnnessary time which caused it to be late</p>
+			<p class="rowText">Reports: Was very rude upon delivery and took unnnessary time which caused it to be late
+			</p>
 		</div>
-			<a class="btn suspendB" onclick="suspend()">Suspend</a>
-			<a  class="btn deleteB" onclick="deleted()">Delete</a>
-		</div>
+		<a class="btn suspendB" onclick="suspend()">Suspend</a>
+		<a class="btn deleteB" onclick="deleted()">Delete</a>
+	</div>
 	<a href="AdminReviewList.html" class="btn backB">Back</a>
 
 	<script>
-	function suspend() {
-		alert("You have suspended this account.");
-		window.location.href = "AdminDashboard.html";
-	}
+		function suspend() {
+			alert("You have suspended this account.");
+			window.location.href = "AdminDashboard.html";
+		}
 
-	function deleted() {
-		alert("You have deleted this account.");
-		window.location.href = "AdminDashboard.html";
-	}
-</script>
+		function deleted() {
+			alert("You have deleted this account.");
+			window.location.href = "AdminDashboard.html";
+		}
+	</script>
 </body>
+
 </html>

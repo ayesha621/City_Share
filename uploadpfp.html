@@ -1,116 +1,131 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <title>CityShare</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script src="script.js"></script>
 </head>
 
 <body>
 
-<div class="topbar d-flex justify-content-between align-items-center px-4">
+  <div class="topbar d-flex justify-content-between align-items-center px-4">
+        <div class="d-flex align-items-center gap-2">
+            <img src="logo.png" width="60">
+            <div style="color: white; position: relative;">
+                <h5 class="m-0">CityShare - Toronto, ON </h5>
+                <small id="cityToggle" onclick="toggleMenu()" style="cursor: pointer;">Menu⏷</small>
 
-
-  <div class="d-flex align-items-center gap-2">
-    <img src="logo.png" width="60">
-
-    <div style="color: white;">
-    <h5 class="m-0">CityShare</h5>
-    <small>Toronto, ON ⏷</small>
+                <div id="cityMenu" class="dropdown">
+                    <a href="uploadpfp.html" class="nav-link-item">Profile</a>
+                    <a href="requestdelivery.html" class="nav-link-item">Request Delivery</a>
+                    <a href="finddriver.html" class="nav-link-item">Track Delivery</a>
+                    <a href="deliveryHistory.html" class="nav-link-item">Delivery History</a>
+                    <a href="loginpage.html" class="nav-link-item logout">Logout</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+            <a href="homepage.html"><img src="home.png" class="nav-icon"></a>
+            <a href="uploadpfp.html"><img src="profile.png" class="nav-icon"></a>
+        </div>
     </div>
   </div>
 
 
-  <div class="d-flex align-items-center gap-3">
-       <a href="homepage.html"><img src="home.png" class="nav-icon"></a>
-    <a href="uploadpfp.html"><img src="profile.png" class="nav-icon"></a> 
   </div>
 
-</div>
-
- 
-</div>
-
- </div>
-</div>
-</div>
-</div>
-<pre>
+  </div>
+  </div>
+  </div>
+  </div>
+  <pre>
 
   </pre>
 
-  <div class = "loginpage" >
+  <div class="loginpage">
 
 
 
 
- 
-</div>
 
-    <div class="d-flex justify-content-center mt-3">
-<div class ="box2" >
-
-
-   <img style =  "margin-top: -20%;" src="bigprofile.png">
-   <div class="px-3" style="max-width: 800px; margin: 0 auto;">
-  <div  style=" font-size: 90%;"> Upload Profile Picture</div>
-
-
-<div class="d-flex justify-content-center px-3 mt-3">
-  <div class="logininput d-flex justify-content-center">
-    <input type="text" class="form-control border-0" placeholder="Name" required>
   </div>
-</div>
 
-<div class="d-flex justify-content-center px-3 mt-3 style =  margin-top: -20%;">
-  <div class="logininput d-flex justify-content-center">
-    <input type="text" class="form-control border-0" placeholder="Email" required>
-  </div>
-</div>
-
-<div class="d-flex justify-content-center px-3 mt-3 ">
- 
-</div>
+  <div class="d-flex justify-content-center mt-3">
+    <div class="box2">
 
 
+      <img style="margin-top: -20%;" src="bigprofile.png">
+      <div class="px-3" style="max-width: 800px; margin: 0 auto;">
+        <div style=" font-size: 90%;"> Upload Profile Picture</div>
 
 
-<div class="d-flex justify-content-center mt-3"> <a href="homepage.html"> <button class="button mt-1"> <span style="color: white; font-size: 90%; "> <h5>Edit Profile</h5></span> </button> </a> </div>
-<div class="d-flex justify-content-center mt-3">  </div>
-
- <div class="d-flex justify-content-center "> <a href="resetPassword.html"> <button class="button mt-1"> <span style="color: white; font-size: 90%; "><h5>Reset Password</h5></span> </button> </a> </div>
-
-
-</div>
-    
-</div>
-</div>
-<pre>
-    
-    </pre>
-
-<div class="d-flex justify-content-between align-items-center w-100 px-4">
-      
- <a href="homepage.html"> <button class="button w-5 mt-1 me-2" style="color:#5a73d9; background-color:#ffffff;">
-       <h5> Back</h5>
-    </button></a>
-  <a href="loginpage.html"> <button class="button w-5 mt-1 me-2" style="color:#5a73d9; background-color:#ffffff;">
-       <h5> Logout</h5>
-    </button></a>
+        <div class="d-flex justify-content-center px-3 mt-3">
+          <div class="logininput d-flex justify-content-center">
+            <input type="text" class="form-control border-0" placeholder="Name" required>
           </div>
-</div>
+        </div>
+
+        <div class="d-flex justify-content-center px-3 mt-3 style =  margin-top: -20%;">
+          <div class="logininput d-flex justify-content-center">
+            <input type="text" class="form-control border-0" placeholder="Email" required>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center px-3 mt-3 ">
+
+        </div>
+
+
+
+
+        <div class="d-flex justify-content-center mt-3"> <a href="homepage.html"> <button class="button mt-1"> <span
+                style="color: white; font-size: 90%; ">
+                <h5>Edit Profile</h5>
+              </span> </button> </a> </div>
+        <div class="d-flex justify-content-center mt-3"> </div>
+
+        <div class="d-flex justify-content-center "> <a href="resetPassword.html"> <button class="button mt-1"> <span
+                style="color: white; font-size: 90%; ">
+                <h5>Reset Password</h5>
+              </span> </button> </a> </div>
+
+
+      </div>
 
     </div>
+  </div>
+  <pre>
+
+    </pre>
+
+  <div class="d-flex justify-content-between align-items-center w-100 px-4">
+
+    <a href="homepage.html"> <button class="button w-5 mt-1 me-2" style="color:#5a73d9; background-color:#ffffff;">
+        <h5> Back</h5>
+      </button></a>
+    <a href="loginpage.html"> <button class="button w-5 mt-1 me-2" style="color:#5a73d9; background-color:#ffffff;">
+        <h5> Logout</h5>
+      </button></a>
+  </div>
+  </div>
+
+  </div>
 
 
 
 
 </body>
+
 </html>
