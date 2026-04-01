@@ -590,3 +590,47 @@ h1 {
   font-weight: 700;
   color: #22c55e;
 }
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: white;
+  border-radius: 16px;
+  padding: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  z-index: 999;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.dropdown.open {
+  display: flex;
+}
+
+.nav-link-item {
+  color: #5a73d9;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 10px;
+  transition: background 0.18s;
+}
+
+.nav-link-item:hover {
+  background: #f0f3ff;
+  color: #5a73d9;
+}
+
+.nav-link-item.logout {
+  color: #ef4444;
+  border-top: 1px solid #eee;
+  margin-top: 4px;
+  padding-top: 12px;
+}
+
+.nav-link-item.logout:hover {
+  background: #fff0f0;
+  color: #ef4444;
+}
