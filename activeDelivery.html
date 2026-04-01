@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CityShare</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="topbar d-flex justify-content-between align-items-center px-4">
+
+
+  <div class="d-flex align-items-center gap-2">
+    <img src="logo.png" width="60">
+
+    <div style="color: white;">
+    <h5 class="m-0">CityShare</h5>
+    <small>Toronto, ON ⏷</small>
+    </div>
+  </div>
+
+  <div class="d-flex align-items-center gap-3">
+       <a href="homepage.html"><img src="home.png" class="nav-icon"></a>
+    <a href="uploadpfp.html"><img src="profile.png" class="nav-icon"></a> 
+  </div>
+</div>
+
+	<div class="header">
+		<p>Active Delivery</p>
+		<img src="activeDeliveryMap.png">
+	</div>
+
+	<div class="status">
+		<div class="statusStep active" id="step1">
+			<span class="dot"></span>
+			<span class="statusStep">Arrived at Pickup</span>
+		</div>
+
+		<div class="statusStep" id="step2">
+			<span class="dot"></span>
+			<span class="statusStep">Picked up Package</span>
+		</div>
+
+		<div class="statusStep" id="step3">
+			<span class="dot"></span>
+			<span class="statusStep">Arrived at Drop-off</span>
+		</div>
+	</div>
+
+	<script>
+		let currentStep = 1;
+
+		function updateStatus(step) {
+    		document.getElementById("step" + step).classList.add("active");
+		}
+
+		setInterval(() => {
+    		if (currentStep <= 3) {
+        		updateStatus(currentStep);
+        		currentStep++;
+    		}
+		}, 3000);
+	</script>
+</body>
+</html>
